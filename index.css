@@ -601,6 +601,24 @@ nav {
     color: #FFFFFF;
 }
 
-@media (max-width: 500px){
+@media (max-width: 577px){
 
+    header {
+        width: 500px;
+        /* background-color: #FFFFFF; */
+    }
+
+     .container {
+        border: 2px solid red;
+        width: 575px;
+     }
+
+     .header_info {
+        line-height: 40px;
+        width: 490px;
+        font-size: 44px;
+        /* margin: 0px 0px 0px -40px; */
+        border: 2px solid red;
+        margin-bottom: 200px;
+     }
 }
