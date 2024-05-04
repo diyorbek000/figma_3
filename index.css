@@ -143,6 +143,7 @@ nav {
 }
 
 .chad_header {
+    margin-top: 270px;
     margin-bottom: 50px;
     width: 100%;
     text-align: center;
@@ -166,7 +167,6 @@ nav {
     width: 320px;
     height: 230px;
     border-radius: 10px;
-    border: 1px 0px 0px 0px;
     border: 2px solid #10A37F;
     text-align: center;
 }
@@ -604,6 +604,7 @@ nav {
 @media (max-width: 577px){
 
     header {
+        margin: auto;
         width: 500px;
         /* background-color: #FFFFFF; */
     }
@@ -614,11 +615,51 @@ nav {
      }
 
      .header_info {
-        line-height: 40px;
+        line-height: 50px;
         width: 490px;
         font-size: 44px;
-        /* margin: 0px 0px 0px -40px; */
         border: 2px solid red;
-        margin-bottom: 200px;
+        text-align: center;
+        margin-top: 300px;
+     }
+
+     .header_btn {
+        border: 2px solid red;
+        margin-top: 100px;
+        margin-left: 100px;
+        width: 1000px;
+        height: 70px;
+     }
+
+     .close_btn {
+        border: 2px solid red;
+        margin-left: 130px;
+     }
+
+     .header_img {
+        border: 2px solid red;
+        width: 450px;
+        height: 450px;
+        margin: 500px 0px 0px -220px;
+    }
+
+     .header_paragraph {
+        margin-left: 30px;
+        margin-top: -40px;
+        border: 2px solid red;
+        margin-bottom: 250px;
+        height: 100px;
+        width: 400px;
+        text-align: center;
+     }
+
+     .navbar_logo {
+        margin-left: 30px;
+     }
+
+     .btn_menu {
+        margin-right: 30px;
+        width: 40px;
+        height: 40px;
      }
 }
