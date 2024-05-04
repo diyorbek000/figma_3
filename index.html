@@ -1,12 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./index.css">
-    <title>Document</title>
+    <title>GPT</title>
 </head>
+
 <body>
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <nav>
+                    <div class="navbar_menu">
+                        <img src="./img/navbar_logo.svg" alt="" class="navbar_logo">
+
+                        <div class="navbar_links">
+                            <a class="navbar_link d-none d-lg-block">Главная</a>
+                            <a class="navbar_link d-none d-lg-block">ChatGPT</a>
+                            <a class="navbar_link d-none d-lg-block">Midjourney</a>
+                            <a class="navbar_link d-none d-lg-block">Отзывы</a>
+                            <a class="navbar_link d-none d-lg-block">Тарифы</a>
+                            <a class="navbar_link d-none d-lg-block">API</a>
+                            <a class="navbar_link d-none d-lg-block">Вопросы</a>
+                            <a class="navbar_link d-none d-lg-block">Блог</a>
+                        </div>
+
+                        <button class="navbar_btn">Авторизация</button>
+                    </div>
+                </nav>
+                <div class="header_page">
+                    <div class="left_header col-6">
+                        <h1 class="header_info">
+                            ZlonGPT - нейросети
+                            онлайн бесплатно
+                        </h1>
+                        <p class="header_paragraph">
+                            Сервис ZionGPT разработан профессионалами, для профессионалов.
+                            ChatGPT. Midjourney, и другие нейросети в одном сервисе на Русском языке,
+                            без VPN с поддержкой Русских банковских карт!
+                        </p>
+                        <div class="header_buttons row">
+                            <button class="header_btn col-3">Начать бесплатно</button>
+                            <div class="close_btn col-3">Попробуй бесплатно!</div>
+                        </div>
+                    </div>
+                    <div class="right_header col-6">
+                        <img src="./img/header_img.svg" alt="" class="header_img">
+                    </div>
+                </div>
+                <!-- CHAD PAGE -->
+                <div class="chad_page">
+                    <h1 class="chad_header col-12">Как работает Chad?</h1>
+                    <div class="chad_father row">
+                        <div class="chad_card ">
+                            <div class="img_father">
+                                <img src="./img/🇷🇺.png" alt="" class="chad_img">
+                            </div>
+                            <div class="chad_info">Поддерживает русский <br>
+                                язык и интерфейс</div>
+                        </div>
+                        <div class="chad_card ">
+                            <div class="img_father">
+                                <img src="./img/⏳.png" alt="" class="chad_img">
+                            </div>
+                            <div class="chad_info">Быстрые ответы без очереди <br>
+                                и остановок на час</div>
+                        </div>
+                        <div class="chad_card ">
+                            <div class="img_father">
+                                <img src="./img/🛡.png" alt="" class="chad_img">
+                            </div>
+                            <div class="chad_info">Доступ без VPN</div>
+                        </div>
+                        <div class="chad_card ">
+                            <div class="img_father">
+                                <img src="./img/💳.png" alt="" class="chad_img">
+                            </div>
+                            <div class="chad_info">Не нужен номер телефона <br>
+                                и иностранная карта</div>
+                        </div>
+                        <div class="chad_cards_father row">
+                            <div class="chad_card_2 col">
+                                <div class="chad_info_2">
+                                    <div class="chad_header_2">🎨 <br> Создавайте <br> контент</div>
+                                    <p class="chad_paragraph_2">Создавайте <br> уникальные <br> изображения и текст <br>
+                                        для любых <br> социальных сетей</p>
+                                </div>
+                            </div>
+                            <div class="chad_card_2 col">
+                                <div class="chad_info_2">
+                                    <div class="chad_header_2">✅ <br> Экономьте <br> время</div>
+                                    <p class="chad_paragraph_2">Экономьте ваше <br> время для решения <br> рутинных
+                                        задач <br> с помощью готовых <br> шаблонов</p>
+                                </div>
+                            </div>
+                            <div class="chad_card_2 col">
+                                <div class="chad_info_2">
+                                    <div class="chad_header_2">📚 <br>Используйте <br> в учебе</div>
+                                    <p class="chad_paragraph_2">Ищите любую <br> информацию, <br> решайте тесты, <br>
+                                        создавайте рефераты <br> в один клик</p>
+                                </div>
+                            </div>
+                            <div class="chad_card_2 col">
+                                <div class="chad_info_2">
+                                    <div class="chad_header_2">🔗 <br>Создавайте код</div>
+                                    <p class="chad_paragraph_2">Редактируйте <br> и создавайте любой <br> код, учитесь
+                                        новому <br> и исправляйте ошибки</p>
+                                </div>
+                            </div>
+                            <div class="chad_card_2 col">
+                                <div class="chad_info_2">
+                                    <div class="chad_header_2">💬 <br>Улучшайте текст</div>
+                                    <p class="chad_paragraph_2">Редактируйте любой <br> текст, увеличивайте <br>
+                                        оригинальность, <br> создавайте лучший <br> текст под любые <br> задачи</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TELEGRAM CHAT PAGE -->
+                        <div class="chat_page">
+                            <h1 class="chat_header">Сообщество и отзывы</h1>
+                            <p class="chat_paragraph">Поддержка, обновления и отзывы о сервисе в Telegram чате</p>
+
+                            <div class="chat_cards_1 row">
+                                <div class="chat_card col-4">
+                                    <div class="card_settings col">
+                                        <img src="./img/chat_img_1.svg" alt="">
+                                        <div class="user_names col">
+                                            <div class="user_name">Вита</div>
+                                            <div class="user_username">@wintervi</div>
+                                            <p class="user_info">Спасибо за бот! Использовала для
+                                                копирайта в соцсетях, (подкинул классные
+                                                идеи для рубрик) Работает быстрее, чем
+                                                обычный и не тупит, так как не нужен VPN</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat_card col-4">
+                                    <div class="card_settings col">
+                                        <img src="./img/chat_img_2.svg" alt="">
+                                        <div class="user_names col">
+                                            <div class="user_name">Данил</div>
+                                            <div class="user_username">@stllgeekin</div>
+                                            <p class="user_info">Реально крутой бот!!! Парился с научкой <br> пол года,
+                                                покупал турецкую карту, для регистрации, потом переводил с
+                                                английского... А тут, быстро, без очередии без всяких заморочек!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat_card col-4">
+                                    <div class="card_settings col">
+                                        <img src="./img/chat_img_3.svg" alt="">
+                                        <div class="user_names col">
+                                            <div class="user_name">Денис</div>
+                                            <div class="user_username">@denisshvts</div>
+                                            <p class="user_info">Пользовался для проги в универе на python все работает
+                                                четко, спасибо</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="chat_cards_2 row">
+                                <div class="chat_card col-4">
+                                    <div class="card_settings col">
+                                        <img src="./img/chat_img_4.svg" alt="">
+                                        <div class="user_names col">
+                                            <div class="user_name">Миша</div>
+                                            <div class="user_username">@dancerflexerr</div>
+                                            <p class="user_info">Крутяк! Юзаю, чтобы писать код, для вуза функционала
+                                                хватает. Поддерживает разные языки программирования. Нет проблем с
+                                                регистрацией, не нужна фейк симка</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat_card col-4">
+                                    <div class="card_settings col">
+                                        <img src="./img/chat_img_5.svg" alt="">
+                                        <div class="user_names col">
+                                            <div class="user_name">Маша</div>
+                                            <div class="user_username">@solo_maa</div>
+                                            <p class="user_info">Суперский продукт. Упрощает множество задач. Это станет
+                                                максимально комфортным механизмом для тех, кто все время откладывал
+                                                мороку с регистрацией на оригинальном сайте.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat_card col-4">
+                                    <div class="card_settings col">
+                                        <img src="./img/chat_img_6.svg" alt="">
+                                        <div class="user_names col">
+                                            <div class="user_name">Саша</div>
+                                            <div class="user_username">@orthdxbully</div>
+                                            <p class="user_info">Очень быстро и удобно все работает, рад что теперь не
+                                                нужно париться с VPN)! Работает быстрее чем оригинальный и на русском
+                                                ответы получаются на много лучше!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CHAT__GPT PAGE -->
+                        <div class="api_page row">
+                            <h1 class="api_header">API Midjourney и ChatGPT</h1>
+                            <div class="api_left col-6">
+                                <h3 class="api__header">Интегрируйте ChatGPT и Midjourney в ваши
+                                    проекты, пишите плагины!</h3>
+                                <div class="api_info">
+                                    <img src="./img/api_yes img.svg" alt="">
+                                    <h4 class="api__info">Настоящий Midjourney 5.3 <br>
+                                        - 0.2 копейки за каждый запрос</h4>
+                                </div>
+                                <div class="api_info">
+                                    <img src="./img/api_yes img.svg" alt="">
+                                    <h4 class="api__info">Настоящий ChatGPT <br>
+                                        - 0.2 копейки за каждый запрос</h4>
+                                </div>
+                                <div class="api_info">
+                                    <h4 class="api__info" style="padding-left: 70px; text-decoration: underline;">
+                                        Смотреть документацию</h4>
+                                </div>
+                            </div>
+                            <div class="api_right col-6">
+                                <img src="./img/Api_img.svg" alt="" class="api_img">
+                            </div>
+                        </div>
+                        <!-- TARIFNIY_PLAN PAGE-->
+                        <div class="plan_page row">
+                            <h1 class="plan-header"> Выберите тарифный план </h1>
+                            <div class="plan_cards">
+
+                                <!-- 1 -->
+
+                                <div class="plan_card col-4">
+                                    <h2 class="card_header">Тариф PRO за 1 ₽ <br> 1 месяц</h2>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Доступ без VPN</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Не нужен номер телефона
+                                            и иностранная карта</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Безлимит GPT 3,5 Turbo</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">25 запросов в день к Midjourney</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">25 запросов в день к GPT4</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/no_img.svg" alt="">
+                                        <div class="plan_yes">Доступ к Api GPT и Midjourney</div>
+                                    </div>
+                                    <button class="plan_btn_1">Выбрать тариф</button>
+                                </div>
+
+                                <!-- 2 -->
+
+                                <div class="plan_card_2 col-4">
+                                    <h2 class="card_header">Тариф PRO за 1 ₽ <br> 1 месяц</h2>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Доступ без VPN</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Не нужен номер телефона
+                                            и иностранная карта</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Безлимит GPT 3,5 Turbo</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">25 запросов в день к Midjourney</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">25 запросов в день к GPT4</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/no_img.svg" alt="">
+                                        <div class="plan_yes">Доступ к Api GPT и Midjourney</div>
+                                    </div>
+                                    <button class="plan_btn">Выбрать тариф</button>
+                                    <div class="plan-warning_info">
+                                        <img src="./img/warning_img.svg" alt="">
+                                        <div class="plan_warning">Первый месяц за 1 рубль далее по 599₽ в месяц</div>
+                                    </div>
+                                </div>
+
+                                <!-- 3 -->
+
+                                <div class="plan_card col-4">
+                                    <h2 class="card_header">Тариф PRO за 1 ₽ <br> 1 месяц</h2>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Доступ без VPN</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Не нужен номер телефона
+                                            и иностранная карта</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">Безлимит GPT 3,5 Turbo</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">25 запросов в день к Midjourney</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/api_yes img.svg" alt="">
+                                        <div class="plan_yes">25 запросов в день к GPT4</div>
+                                    </div>
+                                    <div class="plan_info">
+                                        <img src="./img/no_img.svg" alt="">
+                                        <div class="plan_yes">Доступ к Api GPT и Midjourney</div>
+                                    </div>
+                                    <button class="plan_btn_1">Выбрать тариф</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- VOPROS____PAGE -->
+                        <div class="vopros_page row">
+                            <h1 class="vopros_header col">Часто задаваемые вопросы</h1>
+                            <div class="vopros_quizes col-12">
+                                <h3 class="vopros_question col-9">Как и на какой версии работает Chad?</h3>
+                                <img src="./img/bottom_btn.svg" alt="" class="bottom_btn col-3">
+                            </div>
+                            <div class="vopros_quizes col-12">
+                                <h3 class="vopros_question col-9">Что будет, если израсходуются лимит слов раньше <br>
+                                    окончания месяца?</h3>
+                                <img src="./img/bottom_btn.svg" alt="" class="bottom_btn col-3">
+                            </div>
+                            <div class="vopros_quizes col-12">
+                                <h3 class="vopros_question col-9">Как считается количество слов, указанное в тарифах?
+                                </h3>
+                                <img src="./img/bottom_btn.svg" alt="" class="bottom_btn col-3">
+                            </div>
+                            <div class="vopros_quizes col-12">
+                                <h3 class="vopros_question col-9">Почему сервис платный?</h3>
+                                <img src="./img/bottom_btn.svg" alt="" class="bottom_btn col-3">
+                            </div>
+                            <div class="vopros_quizes col-12">
+                                <h3 class="vopros_question col-9">Если у меня возникнут вопросы или сложности, мне
+                                    помогут?</h3>
+                                <img src="./img/bottom_btn.svg" alt="" class="bottom_btn col-3">
+                            </div>
+                        </div>
+                        <!-- FOOTER PART -->
+                        <footer>
+                            <div class="footer_page row">
+                                <img src="./img/footer_logo.svg" alt="" class="footer_logo">
+                                <div class="footer_links col-7">
+                                    <a href="###" class="footer_link">Что может</a>
+                                    <a href="###" class="footer_link">Как работает</a>
+                                    <a href="###" class="footer_link">Отзывы</a>
+                                    <a href="###" class="footer_link">Тарифы</a>
+                                    <a href="###" class="footer_link">Для бизнеса</a>
+                                    <a href="###" class="footer_link">Вопросы</a>
+                                    <a href="###" class="footer_link">Блог</a>
+                                </div>
+                                <div class="footer_email col">hello@chadgpt.ru</div>
+                                <img src="./img/wk_logo.svg" alt="" class="footer_wk">
+                                <img src="./img/telegram_logo.svg" alt="" class="footer_telegram">
+                                <div class="footer_line"></div> 
+                                <div class="footer_info col-8">При использовании сервиса вы соглашаетесь c правилами
+                                    использования. Мы <br> не имеем отношения к OpenAI, не распространяем их ПО. Условия <br>
+                                    использования Chad.</div>
+                                <div class="footer_since col-4">© 2022 — 2023 «Chad» <br> Политика конфиденциальности</div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- TELEPHONE BTN -->
+    <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="./img/navbar_logo.svg" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Главная</a></li>
+                        <li><a class="dropdown-item" href="#">Что может</a></li>
+                        <li><a class="dropdown-item" href="#">Как работает</a></li>
+                        <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                        <li><a class="dropdown-item" href="#">Тарифы</a></li>
+                        <li><a class="dropdown-item" href="#">Для бизнеса</a></li>
+                        <li><a class="dropdown-item" href="#">Вопросы</a></li>
+                        <li><a class="dropdown-item" href="#">Блог</a></li>
     
+    
+    
+    
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <div class="avtorizatsiya_navbar">
+                            <li><button class="btn btn-success text-center" href="#">Авторизация</button></li>
+                        </div>
+                    </ul>
+                </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

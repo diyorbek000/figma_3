@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lugrasimo&family=Manrope:wght@200..800&family=Russo+One&display=swap');
+
+/* .avtorizatsiya_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+header {
+    background-color: #202123;
+    width: 1510px;
+    margin: auto;
+}
+
+.container {
+    background: #202123;
+    width: 1440px;
+    height: 4850px;
+}
+
+nav {
+    width: 1300px;
+    height: 50px;
+}
+
+.navbar_links {
+    width: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar_menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar_btn {
+    border: none;
+    border-radius: 6px;
+    background: #10A37F;
+    width: 182px;
+    height: 46px;
+    position: relative;
+}
+
+/* HEADER PAGE */
+
+.left_header {
+    padding-top: 40px;
+}
+
+.header_info {
+    color: #FFFFFF;
+    width: 783px;
+    height: 160px;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: left;
+}
+
+.header_paragraph {
+    width: 641px;
+    height: 72px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.header_buttons {
+    padding-left: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_btn {
+    background-color: #10A37F;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.close_btn {
+    width: 179px;
+    height: 22px;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.header_img {
+    width: 630px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.header_page {
+    margin-top: 50px;
+    padding-right: 40px;
+    padding: 40px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CHAD PAGE */
+
+.chad_page {
+    margin-top: 50px;
+}
+
+.chad_header {
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+/* background:linear-gradient(#10A37F, red); */
+
+.chad_father {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chad_card {
+    background: #29282F;
+    width: 320px;
+    height: 230px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    border: 2px solid #10A37F;
+    text-align: center;
+}
+
+.chad_info {
+    margin-top: 30px;
+    width: 300px;
+    height: 70px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_father {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.chad_cards_father {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.chad_cards_father {
+    margin-top: -0px;
+}
+
+.chad_card_2 {
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(200.34deg, rgba(35, 34, 40, 0.8) 0%, #19C37D 120.93%);
+}
+
+.chad_info_2 {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.chad_header_2 {
+    margin-top: 20px;
+    width: 157px;
+    height: 76px;
+    font-family: Manrope;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.chad_paragraph_2 {
+    margin-top: 50px;
+    width: 226px;
+    height: 150px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* CHAT PAGE */
+
+.chat_page {
+    margin-top: 70px;
+}
+
+.chat_header {
+    color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    font-family: Manrope;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+}
+
+.chat_paragraph {
+    width: 100%;
+    height: 30px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.chat_cards_1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.chat_cards_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.chat_card {
+    border-radius: 10px;
+    background: #033f31;
+    width: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_settings {
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.user_names {
+    height: 230px;
+}
+
+.user_name {
+    width: 52px;
+    height: 27px;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.user_username {
+    width: 80px;
+    height: 18px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.user_info {
+    margin-left: -60px;
+    position: relative;
+    margin-top: 20px;
+    color: #FFFFFF;
+    width: 408px;
+    height: 108px;
+    font-family: Manrope;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -0.06em;
+    text-align: left;
+}
+
+/* CHAT__GPT PAGE */
+
+.api_page {
+    margin-top: 80px;
+}
+
+.api_header {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 60px;
+}
+
+.api__header {
+    margin-top: 70px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.api_info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    width: 550px;
+}
+
+.api__info {
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.api_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.api_img {
+    margin-top: 30px;
+    width: 450px;
+    height: 450px;
+}
+
+/* TARIFNIY_PLAN PAGE */
+
+.plan_page {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-header {
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+}
+
+.plan_cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.plan_card {
+    margin: 50px 0px 0px 0px;
+    background: #29282F;
+    border-radius: 10px;
+}
+
+.plan_card_2 {
+    margin-top: 50px;
+    background: #29282F;
+    border-radius: 10px;
+}
+
+.card_header {
+    margin-top: 50px;
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.plan_info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.plan_yes {
+    margin-left: 10px;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.plan-warning_info {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.plan_btn_1 {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    margin-left: 10px;
+    background: #10A37F;
+    color: #FFFFFF;
+    width: 400px;
+    height: 56px;
+    border: none;
+}
+
+.plan_btn {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    margin-left: 10px;
+    background: #10A37F;
+    color: #FFFFFF;
+    width: 400px;
+    height: 56px;
+    border: none;
+}
+
+/* VOPROS____PAGE */
+
+.vopros_page {
+    margin-top: 110px;
+}
+
+.vopros_header {
+    margin-bottom: 70px;
+    font-family: Manrope;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bottom_btn {
+    width: 50px;
+    height: 50px;
+}
+
+.vopros_quizes {
+    height: 100px;
+    margin-bottom: 5px;
+    background: #29282F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vopros_question {
+    color: #FFFFFF;
+}
+
+/* FOOTER PAGE */
+
+.footer_page {
+    margin-top: 90px;
+    /* border: 2px solid red; */
+}
+
+.footer_logo {
+    width: 60px;
+    height: 60px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.footer_email {
+    color: #FFFFFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer_wk {
+    width: 60px;
+    height: 60px;
+}
+
+.footer_telegram {
+    width: 60px;
+    height: 60px;
+}
+
+.footer_line {
+    margin-top: 40px;
+    border: 2px solid #2F2E34;
+    width: 102%;
+}
+
+.footer_info {
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+.footer_since {
+    margin-top: 60px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 500px){
+
+}
