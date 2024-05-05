@@ -15,7 +15,7 @@ header {
 .container {
     background: #202123;
     width: 1440px;
-    height: 4850px;
+    height: 5150px;
 }
 
 nav {
@@ -140,6 +140,7 @@ nav {
 
 .chad_page {
     margin-top: 50px;
+    background: #202123;
 }
 
 .chad_header {
@@ -154,7 +155,6 @@ nav {
     line-height: 80px;
 }
 
-/* background:linear-gradient(#10A37F, red); */
 
 .chad_father {
     display: flex;
@@ -246,9 +246,11 @@ nav {
 
 .chat_page {
     margin-top: 70px;
+    margin: 10px;
 }
 
 .chat_header {
+    margin-bottom: 100px;
     color: #FFFFFF;
     width: 100%;
     height: 80px;
@@ -601,65 +603,131 @@ nav {
     color: #FFFFFF;
 }
 
-@media (max-width: 577px){
+@media (max-width: 577px) {
 
     header {
         margin: auto;
         width: 500px;
-        /* background-color: #FFFFFF; */
     }
 
-     .container {
-        border: 2px solid red;
+    .container {
         width: 575px;
-     }
+    }
 
-     .header_info {
+    .header_info {
         line-height: 50px;
         width: 490px;
         font-size: 44px;
-        border: 2px solid red;
         text-align: center;
         margin-top: 300px;
-     }
+    }
 
-     .header_btn {
-        border: 2px solid red;
+    .carousel-item.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_btn {
         margin-top: 100px;
         margin-left: 100px;
         width: 1000px;
         height: 70px;
-     }
+    }
 
-     .close_btn {
-        border: 2px solid red;
+    .close_btn {
         margin-left: 130px;
-     }
+    }
 
-     .header_img {
-        border: 2px solid red;
+    .chad_card_2 {
+        margin-top: 30px;
+        width: 100%;
+        background: linear-gradient(213.3deg, rgba(35, 34, 40, 0.8) 28.84%, #19C37D 100%);
+    }
+
+    .chad_header_2 {
+        width: 100%;
+    }
+
+    .chad_card {
+        margin-right: 500px;
+    }
+
+    .chad_paragraph_2 {
+        font-size: 25px;
+        width: 350px;
+    }
+
+    .header_img {
         width: 450px;
         height: 450px;
         margin: 500px 0px 0px -220px;
+        position: relative;
     }
 
-     .header_paragraph {
+    .header_paragraph {
         margin-left: 30px;
         margin-top: -40px;
-        border: 2px solid red;
         margin-bottom: 250px;
         height: 100px;
         width: 400px;
         text-align: center;
-     }
+    }
 
-     .navbar_logo {
+    .navbar_logo {
         margin-left: 30px;
-     }
+    }
 
-     .btn_menu {
+    .btn_menu {
         margin-right: 30px;
         width: 40px;
         height: 40px;
-     }
+    }
+
+    .vopros_page {
+        padding: 20px;
+    }
+
+    .api__header {
+        margin-top: 450px;
+        width: 430px;
+        font-size: 33px;
+        margin-left: 20px;
+    }
+
+    .api_info {
+        width: 500px;
+    }
+
+    .api_img {
+        width: 400px;
+        height: 400px;
+        margin-top: -500px;
+        margin-left: -270px;
+    }
+
+    .plan_big_cards {
+        margin: auto;
+        margin-left: 30px;
+    }
+
+    .footer_logo {
+        margin-left: 20px;
+    }
+
+    .footer_wk {
+        margin-left: 320px;
+    }
+
+    .footer_info {
+        width: 800px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    .footer_since {
+        width: 700px;
+        margin-top: -300px;
+    }
+
 }
